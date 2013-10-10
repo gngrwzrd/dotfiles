@@ -5,6 +5,7 @@ alias ll='ls -l'
 alias la='ls -lA'
 alias cp='cp -v'
 alias cl="clear"
+alias cdh="cd ~"
 alias ..="cd .."
 alias ...="cd ../.."
 alias -- -="cd -"
@@ -14,11 +15,6 @@ alias lld='ls -lUd */'
 alias lsa='ls -la'
 alias mv='mv -v'
 alias grep='grep --color'
-alias ssu="svn status -u"
-alias svn_addall="svn status | grep '^\?' | sed -e 's/? *//' | sed -e 's/ /\\ /g' | xargs svn add"
-alias rtag='find . -name *.rb | xargs ctags -a -e -f TAGS'
-alias devtail='tail -f -n0 log/development.log'
-alias trail='tail -f'
 alias realpath='readlink -f'
 
 # program aliases
